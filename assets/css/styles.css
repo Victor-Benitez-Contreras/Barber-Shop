@@ -9897,7 +9897,7 @@ header {
   background-image: url(../img/post-image.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 10rem;
+  padding-bottom: 2rem;
   height: 100%;
 }
 
@@ -9907,6 +9907,11 @@ header {
   font-size: 70px;
   font-style: italic;
   padding-top: 8rem;
+}
+
+.fa-angle-double-down {
+  padding-top: 10rem;
+  font-size: 3rem;
 }
 
 .pie {
@@ -9919,6 +9924,10 @@ header {
 .pie--logo {
   width: 120px;
   height: 45px;
+}
+
+.text {
+  color: #222323;
 }
 
 .text--date {
@@ -9938,6 +9947,10 @@ header {
 .text--botones {
   margin-top: 4rem;
   margin-bottom: 2.5rem;
+}
+
+.text--span {
+  color: #d76c69;
 }
 
 .page {
@@ -9969,6 +9982,10 @@ header {
   font-size: 30px;
   font-style: italic;
   margin: 0;
+}
+
+.page--text--content {
+  line-height: 2.8rem;
 }
 
 .text--img--parrafo {

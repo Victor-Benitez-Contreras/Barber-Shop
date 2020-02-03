@@ -1,4 +1,9 @@
+
 //seccion texto
+
+.text {
+    color: $color-raisinblack;
+}
 
 .text--date {
     font-family: $playfair;
@@ -8,7 +13,7 @@
 }
 
 .text--texto-relleno {
-   line-height: 2.8rem; 
+   line-height: $text-height; 
    font-family: $roboto; 
    font-size: $medium;   
    font-weight: $light;
@@ -19,9 +24,14 @@
     margin-bottom: 2.5rem;
 }
 
+.text--span {
+    color: $color-ruddypink;
+}
+
 
 
 //Secccion Page
+
 .page {
     height: 330px;
     width: 100%;
@@ -53,12 +63,13 @@
     margin: 0;
 }
 
+.page--text--content {
+    line-height: $text-height;
+}
+
 .text--img--parrafo {
    margin: 0;
 }
-
-
-
 
 
 

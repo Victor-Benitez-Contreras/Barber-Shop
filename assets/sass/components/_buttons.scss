@@ -1,0 +1,7 @@
+.header--button--medium {
+    @include button--medium($color-white, $color-nickel, $medium, $regular, $roboto);
+}
+
+.header--button--small {
+    @include button--small($color-white, $color-nickel, $small, $regular, $roboto);
+}
