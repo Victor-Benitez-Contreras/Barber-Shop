@@ -5,6 +5,7 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+@import 'vendors/fontawesome-all.css';
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -9918,6 +9919,13 @@ header {
 .pie--logo {
   width: 120px;
   height: 45px;
+}
+
+.text--textorelleno {
+  line-height: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
 }
 
 .page {
