@@ -1,20 +1,36 @@
 //seccion texto
-.text--textorelleno {
-   line-height: 1.6rem; 
+
+.text--date {
+    font-family: $playfair;
+    font-size: $medium;
+    font-weight: $light;
+    padding: 1.2rem 0rem 3.2rem 0rem;
+}
+
+.text--texto-relleno {
+   line-height: 2.8rem; 
    font-family: $roboto; 
    font-size: $medium;   
    font-weight: $light;
-
 }
+
+.text--botones {
+    margin-top: 4rem;
+    margin-bottom: 2.5rem;
+}
+
 
 
 //Secccion Page
 .page {
-height: 330px;
-width: 100%;
-border-top: 1px solid $color-lightgray;
-padding: 5rem 0rem;
+    height: 330px;
+    width: 100%;
+    border-top: 1px solid $color-lightgray;
+    padding: 5rem 0rem;
+}
 
+.page--img--bloque {
+    margin-left: 3rem;
 }
 
 .page--img {
@@ -23,15 +39,28 @@ padding: 5rem 0rem;
     vertical-align: top;
 }
 
-.page--img--texto {
+.page--img--bloque--texto {
     text-decoration: none;
     vertical-align: top;
-    
+    padding-top: 0.5rem;
 }
 
-.page--img--bloque {
-    margin-left: 3rem;
+.page--name--blogger {
+    font-family: $playfair;
+    font-weight: $bold;
+    font-size: $x-large;
+    font-style: italic;
+    margin: 0;
 }
+
+.text--img--parrafo {
+   margin: 0;
+}
+
+
+
+
+
 
 //Secccion Pagination
 

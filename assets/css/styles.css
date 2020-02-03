@@ -9921,11 +9921,23 @@ header {
   height: 45px;
 }
 
-.text--textorelleno {
-  line-height: 1.6rem;
+.text--date {
+  font-family: "Playfair Display", serif;
+  font-size: 16px;
+  font-weight: 300;
+  padding: 1.2rem 0rem 3.2rem 0rem;
+}
+
+.text--texto-relleno {
+  line-height: 2.8rem;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 300;
+}
+
+.text--botones {
+  margin-top: 4rem;
+  margin-bottom: 2.5rem;
 }
 
 .page {
@@ -9935,19 +9947,32 @@ header {
   padding: 5rem 0rem;
 }
 
+.page--img--bloque {
+  margin-left: 3rem;
+}
+
 .page--img {
   height: 140px;
   width: 140px;
   vertical-align: top;
 }
 
-.page--img--texto {
+.page--img--bloque--texto {
   text-decoration: none;
   vertical-align: top;
+  padding-top: 0.5rem;
 }
 
-.page--img--bloque {
-  margin-left: 3rem;
+.page--name--blogger {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 30px;
+  font-style: italic;
+  margin: 0;
+}
+
+.text--img--parrafo {
+  margin: 0;
 }
 
 .pagination--container {
