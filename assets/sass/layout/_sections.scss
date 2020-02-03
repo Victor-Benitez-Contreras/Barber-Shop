@@ -41,6 +41,7 @@
 
 .page--img--bloque {
     margin-left: 3rem;
+    padding: 1rem 0rem 0rem 0rem;
 }
 
 .page--img {
@@ -69,8 +70,9 @@
 
 .text--img--parrafo {
    margin: 0;
+   color: $color-spanishpink;
+   font-weight: $regular;
 }
-
 
 
 //Secccion Pagination
