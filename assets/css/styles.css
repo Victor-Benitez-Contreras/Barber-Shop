@@ -10009,6 +10009,16 @@ header {
   width: 12rem;
 }
 
+@media (max-width: 620px) {
+  .page--text--content {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .d-inline-block {
+    display: none;
+  }
+}
 .text--button--medium {
   width: 180px;
   height: 52px;
