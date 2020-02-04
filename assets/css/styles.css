@@ -9876,6 +9876,15 @@ h3 {
     border-color: #dee2e6;
   }
 }
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
 .nav {
   background-color: #121619;
 }
@@ -9960,9 +9969,17 @@ header {
   padding: 5rem 0rem;
 }
 
-.page--img--bloque {
-  margin-left: 3rem;
-  padding: 1.5rem 0rem 0rem 0rem;
+.page--image--blogger {
+  text-align: center;
+}
+
+.page--text {
+  padding: 1.5rem 0rem 0rem 0.5rem;
+  text-align: center;
+}
+
+.page--text--block {
+  text-align: left;
 }
 
 .page--img {
@@ -9971,18 +9988,13 @@ header {
   vertical-align: top;
 }
 
-.page--img--bloque--texto {
-  text-decoration: none;
-  vertical-align: top;
-  padding-top: 0.5rem;
-}
-
 .page--name--blogger {
   font-family: "Playfair Display", serif;
   font-weight: 700;
   font-size: 30px;
   font-style: italic;
   margin: 0;
+  padding-bottom: 0.5rem;
 }
 
 .page--text--content {
@@ -10006,17 +10018,47 @@ header {
 }
 
 .pagination {
-  width: 12rem;
+  text-align: center;
 }
 
-@media (max-width: 620px) {
+.page-link {
+  color: #222323;
+}
+
+.page--item--barbershop {
+  background-color: #121619;
+}
+
+@media (max-width: 920px) {
   .page--text--content {
     display: none;
   }
+
+  .page--text--block {
+    text-align: center;
+    padding: 1rem 0rem 0rem 0rem;
+  }
+
+  .page--img {
+    height: 130px;
+    width: 130px;
+    vertical-align: top;
+  }
+
+  .page--text {
+    padding: 0rem 0rem 0rem 0rem;
+    text-align: center;
+  }
+
+  .page {
+    padding: 2rem 0rem;
+  }
 }
 @media (max-width: 576px) {
-  .d-inline-block {
-    display: none;
+  .header--text {
+    font-size: 30px;
+    font-style: italic;
+    padding-top: 8rem;
   }
 }
 .text--button--medium {

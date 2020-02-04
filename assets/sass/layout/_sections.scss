@@ -39,9 +39,17 @@
     padding: 5rem 0rem;
 }
 
-.page--img--bloque {
-    margin-left: 3rem;
-    padding: 1.5rem 0rem 0rem 0rem;
+.page--image--blogger{
+    text-align: center;
+}
+
+.page--text{
+    padding: 1.5rem 0rem 0rem 0.5rem;
+    text-align: center;
+}
+
+.page--text--block {
+    text-align: left;
 }
 
 .page--img {
@@ -50,18 +58,13 @@
     vertical-align: top;
 }
 
-.page--img--bloque--texto {
-    text-decoration: none;
-    vertical-align: top;
-    padding-top: 0.5rem;
-}
-
 .page--name--blogger {
     font-family: $playfair;
     font-weight: $bold;
     font-size: $x-large;
     font-style: italic;
     margin: 0;
+    padding-bottom: 0.5rem;
 }
 
 .page--text--content {
@@ -88,5 +91,13 @@
 }
 
 .pagination {
-    width: 12rem;
+    text-align: center;
+}
+
+.page-link {
+    color: $color-raisinblack;
+}
+
+.page--item--barbershop {
+    background-color: $color-eerieblack;
 }
