@@ -10008,17 +10008,13 @@ header {
 }
 
 .pagination--container {
-  text-align: center;
   background-color: #e6e7e7;
   height: 115px;
 }
 
-.pagination--container--item {
+.pagination--content {
   text-align: center;
-}
-
-.pagination {
-  text-align: center;
+  padding: 3% 37% 5% 37%;
 }
 
 .page-link {
@@ -10027,9 +10023,10 @@ header {
 
 .page--item--barbershop {
   background-color: #121619;
+  color: #e6e7e7;
 }
 
-@media (max-width: 920px) {
+@media (max-width: 990px) {
   .page--text--content {
     display: none;
   }
@@ -10059,6 +10056,11 @@ header {
     font-size: 30px;
     font-style: italic;
     padding-top: 8rem;
+  }
+
+  .pagination--content {
+    text-align: center;
+    padding: 13% 3% 7% 3%;
   }
 }
 .text--button--medium {

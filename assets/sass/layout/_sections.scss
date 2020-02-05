@@ -81,18 +81,20 @@
 //Secccion Pagination
 
 .pagination--container {
-    text-align: center;
     background-color: $color-platinum;
     height: 115px;
 }
 
-.pagination--container--item{
+//.pagination--content {
+    //text-align: center;
+    //padding: 2.5rem 7rem 2.5rem 7rem;
+//}
+
+.pagination--content {
     text-align: center;
+    padding: 3% 37% 5% 37%;
 }
 
-.pagination {
-    text-align: center;
-}
 
 .page-link {
     color: $color-raisinblack;
@@ -100,4 +102,5 @@
 
 .page--item--barbershop {
     background-color: $color-eerieblack;
+    color: $color-platinum;
 }
